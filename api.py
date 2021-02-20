@@ -11,11 +11,6 @@ if not os.path.exists(UPLOAD_DIRECTORY):
     os.makedirs(UPLOAD_DIRECTORY)
 
 
-"""
-Problem: unable to send and recieve .wav files, can only work with .mp3 files and maybe some other extensions
-as well. When I open 
-
-"""
 
 api = Flask(__name__)
 
@@ -52,10 +47,6 @@ def post(filename):
     "Just play it to verify if it is corrupted."
     playsound.playsound(UPLOAD_DIRECTORY +"/"+ filename)
     
-
-
-
-    #os.system("wav", + filename) When I do this, it throws some error, i think that the wav file to be sent is not properly serialized..
 
     # Return 201 CREATED
     return "", 201
