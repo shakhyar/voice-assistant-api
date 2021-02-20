@@ -3,4 +3,5 @@
 <h2>api.py</h2> for the server side api, and <h2>test.py</h2> for client side testing
 <hr>
 <br>
-Recent update: API is able to receive data from client, also the client can send audio. 
+<h2>Recent update: API is able to receive data from client, also the client can send audio to the server. 
+</h2>
