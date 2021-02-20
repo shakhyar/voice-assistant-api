@@ -1,0 +1,3 @@
+Api for the voice-assistant. Still under progress...
+
+Recent update: API is able to receive data from client, also the client can send audio. 
